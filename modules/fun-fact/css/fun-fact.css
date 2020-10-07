@@ -1,0 +1,54 @@
+
+.nxbb-fun-fact-area { background-size: cover; background-position: center center; background-repeat: no-repeat; position: relative; }
+
+.nxbb-fun-fact-area *, .nxbb-fun-fact-area ::after, .nxbb-fun-fact-area ::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.nxbb-fun-fact-area a { -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; outline: none; text-decoration: none; }
+
+.nxbb-fun-fact-area a:active, .nxbb-fun-fact-area a:hover, .nxbb-fun-fact-area a:focus, .nxbb-fun-fact-area a:visited { text-decoration: none; outline: 0; }
+
+.nxbb-fun-fact-area .nxadd-btn:not([class*="btn-outline-"]) { border: 0px; }
+
+.nxbb-fun-fact-area .nxadd-btn:focus, .nxbb-fun-fact-area .nxadd-btn:hover { text-decoration: none; border: unset; }
+
+.nxbb-fun-fact-area .nxadd-btn:not(:disabled):not(.disabled) { cursor: pointer; }
+
+.nxbb-fun-fact-area .nxadd-btn { display: inline-block; background-color: #009d97; color: #ffffff; line-height: 40px; border-radius: 5px; font-size: 13px; font-weight: 400; text-align: center; padding: 0px 20px; vertical-align: middle; }
+
+.nxbb-fun-fact-area .nxadd-btn:not(:last-child) { margin-right: 15px; }
+
+.nxbb-fun-fact-area .nxadd-fun-fact-item { position: relative; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; padding: 60px 10px; }
+
+.nxbb-fun-fact-area .nxadd-fun-fact-item .nxadd-funfact-icon { margin-bottom: 20px; }
+
+.nxbb-fun-fact-area .nxadd-fun-fact-item .nxadd-funfact-icon .nx-icon:before { font-size: 35px; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.nxbb-fun-fact-area .nxadd-fun-fact-item .nxadd-funfact-timer { margin-bottom: 12px; line-height: 1; }
+
+.nxbb-fun-fact-area .nxadd-fun-fact-item .nxadd-funfact-timer span { font-size: 30px; color: #333; font-weight: 700; }
+
+.nxbb-fun-fact-area .nxadd-fun-fact-item .nxadd-funfact-timer .super { font-size: 24px; position: relative; vertical-align: super; }
+
+.nxbb-fun-fact-area .nxadd-fun-fact-item .nxadd-funfact-title { margin: 0; font-size: 15px; font-weight: 400; color: #a2a2a2; }
+
+.nxbb-fun-fact-area .nxadd-fun-fact-item.box-style { -webkit-box-shadow: 0px 28px 40px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 28px 40px 0px rgba(0, 0, 0, 0.1); }
+
+.nxbb-fun-fact-area .nxadd-fun-fact-item.border-bottom-style { background-color: #FFF; z-index: 2; }
+
+.nxbb-fun-fact-area .nxadd-fun-fact-item.border-bottom-style:before { content: ''; position: absolute; left: 0; bottom: 0; background-color: #009d97; width: 100%; height: 3px; z-index: 2; -webkit-transform: scaleX(1); -ms-transform: scaleX(1); transform: scaleX(1); -webkit-transform-origin: 100% 100%; -ms-transform-origin: 100% 100%; transform-origin: 100% 100%; transition: transform 300ms ease, -webkit-transform 300ms ease; }
+
+.nxbb-fun-fact-area .nxadd-fun-fact-item.border-bottom-style:hover .nxadd-funfact-icon .nx-icon { color: #009d97; }
+
+.nxbb-fun-fact-area .nxadd-fun-fact-item.border-bottom-style:hover:before { -webkit-transform: scaleX(0); -ms-transform: scaleX(0); transform: scaleX(0); -webkit-transform-origin: 0% 50%; -ms-transform-origin: 0% 50%; transform-origin: 0% 50%; }
+
+.nxbb-fun-fact-area .nxadd-fun-fact-item.round-style .nxadd-funfact-icon .nx-icon:before { background-color: #009d97; padding: 16px 16px; color: #c6eaea; border-radius: 50%; display: inline-block; }
+
+.nxbb-fun-fact-area .nxadd-fun-fact-item.round-style .nxadd-funfact-title { color: #009d97; }
+
+.nxbb-fun-fact-area .nxadd-fun-fact-item.shadow-style .nxadd-funfact-icon .nx-icon:before { padding: 16px 16px; color: #000; border-radius: 50%; display: inline-block; -webkit-box-shadow: 0px 28px 40px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 28px 40px 0px rgba(0, 0, 0, 0.1); }
+
+.nxbb-fun-fact-area .nxadd-fun-fact-item.shadow-style:hover { -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+
+.nxbb-fun-fact-area .nxadd-fun-fact-item.shadow-style:hover .nxadd-funfact-icon .nx-icon:before { -webkit-box-shadow: none; box-shadow: none; }
+
+.nxbb-fun-fact-area .nxadd-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #000; opacity: .6; }

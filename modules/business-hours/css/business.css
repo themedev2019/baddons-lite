@@ -1,0 +1,17 @@
+.nxbb-business-hours-wrapper *, .nxbb-business-hours-wrapper ::after, .nxbb-business-hours-wrapper ::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.nxbb-business-hours-wrapper a { -webkit-box-shadow: none; box-shadow: none; text-decoration: none; }
+
+.nxbb-business-hours-wrapper a:active, .nxbb-business-hours-wrapper a:hover, .nxbb-business-hours-wrapper a:focus, .nxbb-business-hours-wrapper a:visited { outline: none; text-decoration: none; }
+
+.nxbb-business-hours-wrapper ul, .nxbb-business-hours-wrapper li { margin: 0; padding: 0; list-style: none; }
+
+.nxbb-business-hours-wrapper .nxadd-business-hours-inner { display: block; margin: 0; padding: 0; }
+
+.nxbb-business-hours-wrapper .nxadd-business-hours-inner li.nxadd-business-hour-title { padding: 18px; background-color: #2575fc; display: block; }
+
+.nxbb-business-hours-wrapper .nxadd-business-hours-inner li.nxadd-business-hour-title h3 { margin: 0; color: #fff; font-size: 18px; line-height: 1; }
+
+.nxbb-business-hours-wrapper .nxadd-business-hours-inner .nxadd-business-hour-single-item { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 18px; border-bottom: 1px solid #ccc; }
+
+.nxbb-business-hours-wrapper .nxadd-business-hours-inner .nxadd-business-hour-single-item:last-child { border-bottom: 0; }

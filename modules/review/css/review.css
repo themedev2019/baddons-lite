@@ -1,0 +1,62 @@
+
+.nxbb-review .nxbb-widget-container.nx-review-top  {
+    padding: 2rem;
+}
+
+.nxbb-review .nx-review-top .nx-review-fig {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+}
+
+
+.nxbb-review .nxbb-widget-container.nx-review-left  {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+
+.nxbb-review .nxbb-widget-container.nx-review-right {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    padding-right: 2rem;
+    padding-left: 0;
+    text-align: right;
+}
+
+.nxbb-review .nxbb-widget-container.nx-review-left, .nxbb-review .nxbb-widget-container.nx-review-right{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    padding-left: 2rem;
+}
+
+.nxbb-review .nx-review-left .nx-review-body, .nxbb-review .nx-review-right .nx-review-body {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 calc(100% - 150px);
+    -ms-flex: 0 0 calc(100% - 150px);
+    flex: 0 0 calc(100% - 150px);
+    padding: 2rem;
+    max-width: calc(100% - 150px);
+}
+
+.nxbb-review .nx-review-ratting--star {
+    color: #ffbf36;
+}
+
+.nxbb-review .nx-review-ratting {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+}

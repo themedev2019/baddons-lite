@@ -1,0 +1,23 @@
+.nxbb-heading-wrapper *, .nxbb-heading-wrapper ::after, .nxbb-heading-wrapper ::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.nxbb-heading-wrapper .nxbb-content-heading.nx-default-reverse
+{
+    display: flex;
+}
+
+.nxbb-heading-wrapper .nxbb-content-heading.nx-default-heading  {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+.nxbb-heading-wrapper .nxbb-content-heading.nx-default-reverse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
